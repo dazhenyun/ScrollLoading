@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 import './index.less';
 
 const Page = (props) => {
-  const { params, cRef, reqCodeKey = 'code', reqCodeValue = '200', reqDataKey = 'data', reqListKey = 'msgs', title = '文本列表', showHeader = true, currentPageKey = 'page', height = '100%', method = 'GET', url = '/api/marketing_planning/getMsgs' } = props
+  const { params, cRef, reqCodeKey = 'code', reqCodeValue = '200', reqDataKey = 'data', reqListKey = 'msgs', reqTotalKey='total', title = '文本列表', showHeader = true, currentPageKey = 'page', height = '100%', method = 'GET', url = '/api/marketing_planning/getMsgs' } = props
   const [list, setList] = useState([]);
   const [pageStart, setPageStart] = useState(params[currentPageKey] || 0);
   const [total, setTotal] = useState(0);
