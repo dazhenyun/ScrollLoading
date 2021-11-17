@@ -2,7 +2,7 @@
 
 ## 描述
 
-基于react、antd、react-infinite-scroller封装的滚动加载组件，用户可以直接通过传入请求路径、请求方式、响应字段等参数来是用组件
+基于react、antd、react-infinite-scroller封装的滚动加载组件，用户可以通过配置请求路径、请求方式、响应字段等参数使用组件。
 
 ## 效果
 
