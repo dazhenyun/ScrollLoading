@@ -73,7 +73,8 @@ export default () => {
 
 ## 数据格式
 
-![demo.png](https://i.loli.net/2021/11/17/UZKmPX3LYWraTVv.png)
+![demo.png](https://i.loli.net/2021/11/17/CEKRXPwjqshU973.png)
+--------------------------------------------------------------------
 ![demo.png](https://i.loli.net/2021/11/16/RFpnluXH1QTIAg7.png)
 
 ## 温馨提示
