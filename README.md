@@ -2,11 +2,11 @@
 
 ## 描述
 
-基于react、antd、react-infinite-scroller封装的滚动加载组件
+基于react、antd、react-infinite-scroller封装的滚动加载组件，用户可以直接通过传入请求路径、请求方式、响应字段等参数来是用组件
 
 ## 效果
 
-![demo.png](https://i.loli.net/2021/11/16/5wnpI19mhNK3bdZ.png)
+<img src="https://i.loli.net/2021/11/17/tHxEPaSFpGw7mhQ.png" width="320"/><img src="https://i.loli.net/2021/11/17/QAy8BLY74U5uhDs.png" width="320"/>
 
 ## 安装
 
@@ -47,7 +47,7 @@ export default () => {
 
 ```
 
-## 节点属性
+## API
 
 | 参数 | 说明 | 类型 | 默认值 | 可选值 |
 | --- | --- | --- | --- | --- |
@@ -74,7 +74,7 @@ export default () => {
 ## 数据格式
 
 ![demo.png](https://i.loli.net/2021/11/17/CEKRXPwjqshU973.png)
---------------------------------------------------------------------
+---
 ![demo.png](https://i.loli.net/2021/11/16/RFpnluXH1QTIAg7.png)
 
 ## 温馨提示
