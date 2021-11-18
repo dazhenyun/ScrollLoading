@@ -31,7 +31,15 @@ module.exports = {
     ]
   },
   devServer: {
-    contentBase: './dist'
+    contentBase: './dist',
+    proxy: {
+      '/': {
+        target: 'http://10.1.21.81:20219/',
+        pathRewrite: { '^/': '' },
+        changeOrigin: true,
+        secure: false,
+      }
+    }
   },
   plugins: [
     new htmlWebpackPlugin({

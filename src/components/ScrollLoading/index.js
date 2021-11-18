@@ -3,6 +3,7 @@ import InfiniteScroll from 'react-infinite-scroller';
 import { List, message, Spin } from 'antd';
 import { ReloadOutlined } from '@ant-design/icons';
 import PropTypes from 'prop-types';
+import 'antd/dist/antd.css';
 import './index.less';
 
 const Page = (props) => {
