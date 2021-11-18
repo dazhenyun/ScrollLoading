@@ -1,6 +1,6 @@
 {
   "name": "@dzc/scroll-loading",
-  "version": "3.0.0",
+  "version": "3.0.2",
   "description": "滚动加载组件",
   "keywords": [
     "scroll",
